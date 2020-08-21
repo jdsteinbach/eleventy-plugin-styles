@@ -1,0 +1,41 @@
+{
+  "name": "eleventy-plugin-styles",
+  "version": "0.0.1",
+  "description": "Eleventy Plugin for Processing Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint **/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdsteinbach/eleventy-plugin-styles.git"
+  },
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "plugin",
+    "sass",
+    "postcss"
+  ],
+  "author": "James Steinbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdsteinbach/eleventy-plugin-styles/issues"
+  },
+  "homepage": "https://github.com/jdsteinbach/eleventy-plugin-styles#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.32",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
